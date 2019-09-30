@@ -40,7 +40,7 @@ ul {
   color: inherit;
 }
 
-#about-link {
+#portfolio-link {
   color: grey;
 }
 
@@ -48,12 +48,12 @@ ul {
   text-align: left;
 }
 
-.about-header {
+.portfolio-header {
   position: relative;
   display: flex;
   justify-content: flex-start;
 }
-.about-header::after {
+.portfolio-header::after {
   border-bottom: 0.3em solid rgb(0,255,54,0.6);
   content: "";
   left: 0;
@@ -64,24 +64,21 @@ ul {
   top: 50%;
 }
 
-.about-header h1 {
+.portfolio-header h1 {
   padding-left: 50px;
 }
 
-.about-image-section {
+.portfolio-image-section img {
+  max-width: 200px;
   display: flex;
   justify-content: center;
 }
 
-#about-photo {
-  max-width: 20em;
-  margin: 20px;
-}
-
-.about-text-section {
+.portfolio-text-section {
   display: flex;
   justify-content: center;
   align-items: left;
+  /* max-width: 40em; */
   margin-left: 20px;
   margin-right: 20px;
 }
