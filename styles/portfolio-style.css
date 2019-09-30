@@ -90,6 +90,10 @@ https://stackoverflow.com/questions/2539207/how-to-change-the-strike-out-line-th
   margin: 10px;
 }
 
+.portfolio-section img:hover {
+  opacity: 0.2;
+}
+
 .portfolio-section a {
   text-decoration: none;
   color: inherit;
